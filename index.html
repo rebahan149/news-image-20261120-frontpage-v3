@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The Morning After — Friday 20 November 2026 (46 stories)</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { width:1024px; height:1024px; overflow:hidden; background:#f6f1e5; color:#191713;
+         font-family: Georgia, "Times New Roman", serif; }
+  .page { padding:11px 16px 6px; height:1024px; display:flex; flex-direction:column; }
+  .topbar { display:flex; justify-content:space-between; font-family: Arial, Helvetica, sans-serif;
+            font-size:10.5px; letter-spacing:2.2px; color:#8c2f26; border-bottom:2.5px solid #191713; padding-bottom:4px; }
+  .topbar b { color:#191713; }
+  h1 { font-size:44px; line-height:0.98; margin-top:5px; font-weight:700; }
+  .standfirst { font-style:italic; font-size:12.5px; color:#4a4234; margin-top:2px; }
+  .standfirst b { color:#8c2f26; font-style:normal; }
+  .stats { display:flex; gap:8px; margin-top:6px; }
+  .stat { flex:1; border-top:3.5px solid #274b73; background:#fffdf6; padding:4px 8px 5px; border-left:1px solid #c9bfa8; border-right:1px solid #c9bfa8; border-bottom:1px solid #c9bfa8; }
+  .stat.red { border-top-color:#8c2f26; }
+  .stat .n { font-family: Arial, Helvetica, sans-serif; font-size:16.5px; font-weight:700; letter-spacing:0.4px; }
+  .stat .t { font-size:10px; color:#3c362a; margin-top:1px; }
+  .regions { display:flex; gap:5px; margin-top:6px; font-family: Arial, Helvetica, sans-serif; font-size:10px; font-weight:700; letter-spacing:1px; }
+  .regions span { padding:2px 8px; color:#f6f1e5; }
+  .r-apac { background:#1d5c46; } .r-eu { background:#274b73; } .r-am { background:#8c2f26; }
+  .r-af { background:#6d4c1e; } .r-me { background:#b07d2b; } .r-wo { background:#4a4234; }
+  .heroes { display:flex; gap:9px; margin-top:6px; }
+  .hero { flex:1; border:1.5px solid #191713; background:#fffdf6; }
+  .hero .art { height:60px; }
+  .hero .body { padding:4px 8px 5px; }
+  .kick { font-family: Arial, Helvetica, sans-serif; font-size:9px; font-weight:700; letter-spacing:1.1px; color:#8c2f26; }
+  .kick .due { color:#274b73; }
+  .hero h2 { font-size:17px; line-height:1.07; margin:1px 0 2px; }
+  .hero p { font-size:10.4px; line-height:1.19; color:#3c362a; }
+  .src { font-family: Arial, Helvetica, sans-serif; font-size:8.5px; color:#8a7f68; margin-top:3px; }
+  .row { display:flex; gap:9px; margin-top:6px; }
+  .panel { flex:1; border:1.5px solid #191713; background:#fffdf6; }
+  .panel .art { height:25px; }
+  .panel .body { padding:3px 8px 4px; }
+  .panel h3 { font-size:13.5px; line-height:1.1; margin:1px 0 2px; }
+  .panel p { font-size:9.9px; line-height:1.17; color:#3c362a; }
+  .row4 { display:flex; gap:8px; margin-top:6px; }
+  .mini { flex:1; border:1.5px solid #191713; background:#fffdf6; border-top:5px solid #274b73; padding:3px 7px 4px; }
+  .mini.red { border-top-color:#8c2f26; } .mini.green { border-top-color:#1d5c46; } .mini.gold { border-top-color:#b07d2b; }
+  .mini h3 { font-size:12.5px; line-height:1.1; margin:1px 0 2px; }
+  .mini p { font-size:9.6px; line-height:1.16; color:#3c362a; }
+  .mid { display:flex; gap:10px; margin-top:6px; flex:1; align-items:flex-start; }
+  .mapbox { width:336px; border:1.5px solid #191713; background:#17304a; position:relative; flex:none; }
+  .mapbox .cap { position:absolute; left:8px; top:5px; font-family: Arial, Helvetica, sans-serif;
+                 font-size:9px; font-weight:700; letter-spacing:1.4px; color:#f6f1e5; }
+  .mapbox .foot { position:absolute; left:8px; bottom:4px; font-size:8.5px; color:#cdbf9f; font-style:italic; }
+  .briefs { flex:1; border-top:2px solid #191713; padding-top:3px; }
+  .briefs .bh { font-family: Arial, Helvetica, sans-serif; font-size:10.5px; font-weight:700; letter-spacing:1.4px; color:#8c2f26; }
+  .briefs .cols { display:flex; gap:12px; margin-top:2px; }
+  .briefs .col { flex:1; }
+  .briefs p { font-size:9.7px; line-height:1.11; margin-top:1.5px; }
+  .briefs b.n { color:#8c2f26; }
+  .datecheck { border:2px solid #8c2f26; margin-top:5px; padding:4px 9px 5px; background:#fdf8ec; }
+  .datecheck .dh { font-family: Arial, Helvetica, sans-serif; font-size:10px; font-weight:700; letter-spacing:1.4px; color:#8c2f26; }
+  .datecheck p { font-size:10.2px; line-height:1.24; margin-top:1px; }
+  .footer { margin-top:3px; font-size:8.5px; color:#6b6252; font-style:italic; }
+  svg { display:block; width:100%; height:100%; }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="topbar"><span><b>THE WORLD IN ONE DAY</b></span><span>FRIDAY'S NEWS · ONE PAGE · 46 STORIES — EVERY ONE FRIDAY'S</span></div>
+  <h1>The Morning After</h1>
+  <div class="standfirst">Thursday redrew the map; Friday paid the bill — <b>a cyclone ashore</b> · <b>missiles on Kyiv</b> · <b>Asia's markets slump</b> · <b>climate talks outrun their last day</b></div>
+
+  <div class="stats">
+    <div class="stat red"><div class="n">NIKKEI −4.6%</div><div class="t">Tokyo's Friday slide leads an Asia-wide sell-off</div></div>
+    <div class="stat"><div class="n">AKVAN 298,676</div><div class="t">people evacuated to 2,523 relief camps (PTI)</div></div>
+    <div class="stat red"><div class="n">GTA VI $2.36bn</div><div class="t">revenue by Friday, on 24.6m copies sold</div></div>
+    <div class="stat"><div class="n">GOLD −1.9%</div><div class="t">to $3,551.68 — its worst week in eight months</div></div>
+  </div>
+
+  <div class="regions">
+    <span class="r-apac">ASIA-PACIFIC 15</span><span class="r-eu">EUROPE 10</span><span class="r-am">AMERICAS 11</span><span class="r-af">AFRICA 3</span><span class="r-me">MIDEAST 2</span><span class="r-wo">WORLD 5</span>
+  </div>
+
+  <div class="heroes">
+    <div class="hero">
+      <div class="art"><svg viewBox="0 0 320 60" preserveAspectRatio="none">
+        <rect width="320" height="60" fill="#17304a"/>
+        <path d="M0,46 Q80,38 160,43 T320,41 L320,60 L0,60 Z" fill="#c9a86a"/>
+        <g fill="none" stroke="#f6f1e5" stroke-width="4" opacity="0.92">
+          <path d="M92,7 a24,24 0 1,1 -24,24 a18,18 0 1,0 18,-18 a12,12 0 1,1 -12,12 a8,8 0 1,0 8,-8"/>
+        </g>
+        <circle cx="92" cy="31" r="4.5" fill="#e8c85a"/>
+        <g stroke="#9fc3e0" stroke-width="2" opacity="0.8"><path d="M204,10 l-7,10"/><path d="M238,6 l-7,10"/><path d="M272,12 l-7,10"/></g>
+      </svg></div>
+      <div class="body">
+        <div class="kick">1 · GOPALPUR · STORM · TODAY</div>
+        <h2>Akvan comes ashore in India</h2>
+        <p>Severe Cyclone Akvan crossed the Andhra–Odisha coast near Gopalpur around noon, winds 70–80 km/h gusting 90. Officials counted 298,676 people evacuated to 2,523 relief camps, 423 rescue teams deployed, some 70 trains cancelled.</p>
+        <div class="src">Source: IMD via PTI</div>
+      </div>
+    </div>
+    <div class="hero">
+      <div class="art"><svg viewBox="0 0 320 60" preserveAspectRatio="none">
+        <rect width="320" height="60" fill="#101418"/>
+        <g stroke="#e8c85a" stroke-width="2.2"><path d="M28,4 L116,40"/><path d="M94,2 L162,36"/><path d="M288,3 L208,38"/></g>
+        <g fill="#e2571e"><circle cx="124" cy="43" r="7.5"/><circle cx="170" cy="39" r="5.5"/><circle cx="200" cy="42" r="6.5"/></g>
+        <g fill="#2c3540"><rect x="16" y="46" width="50" height="14"/><rect x="80" y="50" width="36" height="10"/><rect x="238" y="47" width="58" height="13"/></g>
+      </svg></div>
+      <div class="body">
+        <div class="kick">2 · KYIV · WAR · TODAY</div>
+        <h2>Ballistic missiles rain on Kyiv</h2>
+        <p>Russia struck the capital with ballistic missiles and drones in Friday's early hours. Debris set a three-storey building ablaze in Obolonskyi; fires burned across districts — retaliation, Kyiv said, for the bridge strike.</p>
+        <div class="src">Source: Reuters</div>
+      </div>
+    </div>
+    <div class="hero">
+      <div class="art"><svg viewBox="0 0 320 60" preserveAspectRatio="none">
+        <rect width="320" height="60" fill="#fdf8ec"/>
+        <text x="12" y="15" font-family="Arial" font-size="10" font-weight="700" fill="#4a4234">NIKKEI 56,698</text>
+        <text x="238" y="15" font-family="Arial" font-size="10" font-weight="700" fill="#8c2f26">FRIDAY −4.6%</text>
+        <g stroke="#8c2f26" stroke-width="3" fill="none"><path d="M10,21 L84,26 L142,35 L206,45 L310,56"/></g>
+        <g fill="#274b73" opacity="0.75"><rect x="26" y="38" width="15" height="18"/><rect x="62" y="34" width="15" height="22"/><rect x="252" y="24" width="15" height="32"/><rect x="282" y="19" width="15" height="37"/></g>
+      </svg></div>
+      <div class="body">
+        <div class="kick">3 · TOKYO · MARKETS · TODAY</div>
+        <h2>Asia's markets slump</h2>
+        <p>The Nikkei fell 4.6% to about 56,698 — down more than 2,700 points at its worst — as AI shares led a regional sell-off. Seoul's Kospi lost 4.8% and Australia's ASX 200 fell 1.1% in Friday dealing.</p>
+        <div class="src">Source: Reuters / AAP</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="panel">
+      <div class="art"><svg viewBox="0 0 320 25" preserveAspectRatio="none">
+        <rect width="320" height="25" fill="#dce8d8"/>
+        <circle cx="272" cy="10" r="8" fill="#e8a33c"/>
+        <path d="M0,18 Q90,9 180,15 T320,13 L320,25 L0,25 Z" fill="#5b8266"/>
+        <g font-family="Arial" font-size="9.5" font-weight="700" fill="#8c2f26"><text x="18" y="12">fossil fuels</text><line x1="14" y1="9" x2="80" y2="10" stroke="#8c2f26" stroke-width="2"/></g>
+      </svg></div>
+      <div class="body">
+        <div class="kick">4 · ANTALYA · CLIMATE · TODAY</div>
+        <h3>COP31 outruns its final day</h3>
+        <p>The summit's last scheduled day arrived with the draft in retreat — every fossil-fuel line struck, the $120bn adaptation figure gone. Needs run to $305bn a year; the tripling goal survives, the details don't.</p>
+        <div class="src">Source: Reuters / BBC</div>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="art"><svg viewBox="0 0 320 25" preserveAspectRatio="none">
+        <rect width="320" height="25" fill="#1d5c46"/>
+        <text x="12" y="20" font-family="Georgia" font-size="17" font-weight="700" fill="#f6f1e5">118</text>
+        <rect x="216" y="3" width="6" height="19" rx="3" transform="rotate(24 219 12)" fill="#c9a86a"/>
+        <circle cx="262" cy="15" r="6.5" fill="#b3352b"/>
+      </svg></div>
+      <div class="body">
+        <div class="kick">5 · WELLINGTON · SPORT · TODAY</div>
+        <h3>Phillips makes history with 118</h3>
+        <p>Glenn Phillips' 118 off 216 balls on day two made him the first player to score centuries in all three formats against India in one year. New Zealand reached 317/6; Nicholls 146 not out.</p>
+        <div class="src">Source: ICC / IANS</div>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="art"><svg viewBox="0 0 320 25" preserveAspectRatio="none">
+        <rect width="320" height="25" fill="#fdf8ec"/>
+        <g stroke="#274b73" stroke-width="2.4" fill="none"><path d="M14,20 L92,16 L148,17 L212,10 L306,4"/></g>
+        <g fill="#8c2f26"><circle cx="92" cy="16" r="3.2"/><circle cx="212" cy="10" r="3.2"/><circle cx="306" cy="4" r="3.2"/></g>
+        <text x="238" y="22" font-family="Georgia" font-size="12" font-weight="700" fill="#274b73">+2.2%</text>
+      </svg></div>
+      <div class="body">
+        <div class="kick">6 · TOKYO · ECONOMY · TODAY</div>
+        <h3>Inflation stays over target</h3>
+        <p>Japan's core consumer prices rose 2.2% in October, Friday's data showed — under the 2.3% forecast but above the Bank of Japan's target a second month. The governor signalled a near-term rise.</p>
+        <div class="src">Source: Reuters</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="panel">
+      <div class="art"><svg viewBox="0 0 320 25" preserveAspectRatio="none">
+        <rect width="320" height="25" fill="#221a2e"/>
+        <text x="14" y="19" font-family="Georgia" font-size="15" font-weight="700" fill="#e8c85a">VI</text>
+        <g fill="none" stroke="#7fd08c" stroke-width="2"><path d="M104,19 L136,10 L168,15 L200,6 L232,11 L292,3"/></g>
+        <text x="252" y="22" font-family="Arial" font-size="9.5" font-weight="700" fill="#f6f1e5">$2.36bn</text>
+      </svg></div>
+      <div class="body">
+        <div class="kick">7 · NEW YORK · GAMES · TODAY</div>
+        <h3>GTA VI passes $2.36bn</h3>
+        <p>Sensor Tower's Friday update put revenue past $2.36bn on some 24.6 million copies — in the game's first full day on sale, a day after the launch that tied the all-time Metacritic record at 99.</p>
+        <div class="src">Source: Sensor Tower via Deadline</div>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="art"><svg viewBox="0 0 320 25" preserveAspectRatio="none">
+        <rect width="320" height="25" fill="#e9dfc8"/>
+        <g fill="#8c6a3b"><rect x="60" y="15" width="200" height="4"/><rect x="76" y="6" width="7" height="9"/><rect x="116" y="6" width="7" height="9"/><rect x="156" y="6" width="7" height="9"/><rect x="196" y="6" width="7" height="9"/><rect x="236" y="6" width="7" height="9"/><path d="M52,6 L160,0 L268,6 Z"/></g>
+        <circle cx="160" cy="12" r="3" fill="#8c2f26"/>
+      </svg></div>
+      <div class="body">
+        <div class="kick">8 · NEW DELHI · DIPLOMACY · TODAY</div>
+        <h3>Pakistan minister reaches Delhi</h3>
+        <p>The SCO Civilisational Dialogue opened at Purana Qila, inaugurated by PM Modi. Pakistan's Musadik Malik leads his country's team — the first visit by a Pakistani federal minister since May 2023.</p>
+        <div class="src">Source: The News / Dainik Jagran</div>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="art"><svg viewBox="0 0 320 25" preserveAspectRatio="none">
+        <rect width="320" height="25" fill="#274b73"/>
+        <g fill="#f6f1e5"><rect x="128" y="6" width="56" height="14" rx="3"/></g>
+        <g fill="#274b73"><circle cx="144" cy="13" r="3"/><circle cx="156" cy="13" r="3"/><circle cx="168" cy="13" r="3"/></g>
+        <text x="196" y="17" font-family="Arial" font-size="10" font-weight="700" fill="#e8c85a">12:00 ET</text>
+      </svg></div>
+      <div class="body">
+        <div class="kick">9 · WASHINGTON · POLITICS · <span class="due">LATER TODAY</span></div>
+        <h3>Trump faces the press at noon</h3>
+        <p>A White House news conference is set for 12:00 ET — the president's first since Shenzhen, with Iran, the declaration and Thursday's market rout all waiting for him at the podium.</p>
+        <div class="src">Source: White House schedule</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row4">
+    <div class="mini">
+      <div class="kick">10 · BRUSSELS · SUMMIT · TODAY</div>
+      <h3>Britain and the EU, face to face</h3>
+      <p>Burnham met Costa and von der Leyen at a first UK–EU summit in years, a food deal the UK values at £5.1bn a year on the table.</p>
+      <div class="src">Source: Reuters / GOV.UK</div>
+    </div>
+    <div class="mini red">
+      <div class="kick">11 · ROME · STRIKE · TODAY</div>
+      <h3>Italy stops for a day</h3>
+      <p>The CGIL's 24-hour general strike hit buses, metros and schools, with some 100 rallies; a rail strike runs into Saturday.</p>
+      <div class="src">Source: ANSA / ETUC</div>
+    </div>
+    <div class="mini green">
+      <div class="kick">12 · BEIJING · RATES · TODAY</div>
+      <h3>Loan rates held, 18th month</h3>
+      <p>China's one-year loan prime rate stayed at 3.00% and the five-year at 3.50% at Friday's fixing, as surveyed.</p>
+      <div class="src">Source: Reuters</div>
+    </div>
+    <div class="mini gold">
+      <div class="kick">13 · FLORIDA · WEATHER · TODAY</div>
+      <h3>Floods keep schools shut</h3>
+      <p>Over a foot of rain in hours kept schools closed across seven counties; 16.65 inches fell near Dania Beach.</p>
+      <div class="src">Source: CNN</div>
+    </div>
+  </div>
+
+  <div class="mid">
+    <div class="mapbox">
+      <div class="cap">WHERE IT HAPPENED</div>
+      <svg viewBox="0 0 372 218" preserveAspectRatio="xMidYMid meet">
+        <g fill="#c9b98f">
+          <path d="M24,50 L90,35 L120,50 L110,74 L86,80 L78,102 L54,94 L30,74 Z"/>
+          <path d="M90,112 L114,108 L120,140 L104,184 L92,152 L86,126 Z"/>
+          <path d="M164,45 L200,39 L212,53 L194,66 L172,63 Z"/>
+          <path d="M174,73 L208,69 L222,96 L214,140 L192,150 L178,112 Z"/>
+          <path d="M218,45 L310,37 L344,57 L330,80 L296,76 L280,95 L244,86 L224,68 Z"/>
+          <path d="M288,130 L332,124 L352,143 L330,162 L296,156 Z"/>
+          <path d="M344,172 L366,168 L370,182 L350,186 Z"/>
+        </g>
+        <g font-family="Arial" font-size="8.5" font-weight="700" text-anchor="middle">
+          <g><circle cx="248" cy="96" r="7.5" fill="#b3352b"/><text x="248" y="99.5" fill="#fff">1</text></g>
+          <g><circle cx="195" cy="52" r="7.5" fill="#b3352b"/><text x="195" y="55.5" fill="#fff">2</text></g>
+          <g><circle cx="316" cy="63" r="7.5" fill="#b3352b"/><text x="316" y="66.5" fill="#fff">3</text></g>
+          <g><circle cx="204" cy="69" r="7.5" fill="#b3352b"/><text x="204" y="72.5" fill="#fff">4</text></g>
+          <g><circle cx="357" cy="177" r="7.5" fill="#b3352b"/><text x="357" y="180.5" fill="#fff">5</text></g>
+          <g><circle cx="327" cy="72" r="7.5" fill="#b3352b"/><text x="327" y="75.5" fill="#fff">6</text></g>
+          <g><circle cx="70" cy="62" r="7.5" fill="#b3352b"/><text x="70" y="65.5" fill="#fff">7</text></g>
+          <g><circle cx="238" cy="86" r="7.5" fill="#b3352b"/><text x="238" y="89.5" fill="#fff">8</text></g>
+          <g><circle cx="82" cy="71" r="7.5" fill="#b3352b"/><text x="82" y="74.5" fill="#fff">9</text></g>
+        </g>
+      </svg>
+      <div class="foot">Red numbers mark panel stories 1–9. Positions are approximate.</div>
+    </div>
+    <div class="briefs">
+      <div class="bh">ALSO ON FRIDAY — 33 MORE STORIES</div>
+      <div class="cols">
+        <div class="col">
+          <p><b class="n">14 SEOUL</b> — Kakao founder Kim Beom-su's acquittal is upheld on appeal; the case ends.</p>
+          <p><b class="n">15 PARIS</b> — Harris pays a "courtesy" call on Macron; 2028 talk follows her.</p>
+          <p><b class="n">16 BERLIN</b> — Europe expects a seat at new Ukraine peace talks, Merz says.</p>
+          <p><b class="n">17 LONDON</b> — The dollar holds near a 19-month high, ~103.9; yen near 159.5.</p>
+          <p><b class="n">18 LONDON</b> — Oil edges up, Brent +0.3% to $92.22, on supply fears.</p>
+          <p><b class="n">19 ANTALYA</b> — Africa presses for climate cash; Europe cites what's pledged.</p>
+          <p><b class="n">20 NEW YORK</b> — Index providers move to add Anthropic to MSCI and FTSE lists.</p>
+          <p><b class="n">21 UNITED NATIONS</b> — World Children's Day: "My day. My rights. My future."</p>
+          <p><b class="n">22 MEXICO CITY</b> — The Revolution Day parade crosses the capital (due 10:00).</p>
+          <p><b class="n">23 JOHANNESBURG</b> — Day two of the China–Africa expo's South Africa session.</p>
+          <p><b class="n">24 ODISHA</b> — Schools and colleges shut in 11 districts as Akvan nears.</p>
+          <p><b class="n">25 GOA</b> — The 57th International Film Festival of India opens.</p>
+          <p><b class="n">26 LUSAKA</b> — Africa Industrialization Week closes on its UN observance day.</p>
+          <p><b class="n">27 FRANKFURT</b> — Gold slides to $3,551.68, its worst week in eight months.</p>
+          <p><b class="n">28 GAUTENG</b> — ANC, ActionSA, EFF and MK close the metros coalition deal.</p>
+          <p><b class="n">29 EUROPE</b> — Students walk out in 25+ countries in a youth strike.</p>
+        </div>
+        <div class="col">
+          <p><b class="n">30 BRASILIA</b> — Black Consciousness Day starts a three-day weekend.</p>
+          <p><b class="n">31 MUMBAI</b> — The RBI runs a ₹50,000-crore repo auction (due).</p>
+          <p><b class="n">32 LAS VEGAS</b> — F1's night weekend reaches qualifying (due tonight PT).</p>
+          <p><b class="n">33 TURIN</b> — ATP Finals group stage ends: Alcaraz v Cobolli (due).</p>
+          <p><b class="n">34 MUNICH</b> — Bayern host Köln to open Bundesliga matchday 10 (due 20:30).</p>
+          <p><b class="n">35 VANDENBERG</b> — SpaceX launches Falcon 9 on USSF-317 (due).</p>
+          <p><b class="n">36 CHINA</b> — A Long March 8A lifts nine more SatNet satellites (due).</p>
+          <p><b class="n">37 LONDON</b> — UK retail sales for October are published (due 07:00 GMT).</p>
+          <p><b class="n">38 DOHA</b> — Rising Stars cricket opens: Pakistan A v UAE, India A v Nepal.</p>
+          <p><b class="n">39 CHINA</b> — The OPPO Watch 5 goes on sale, from ¥899.</p>
+          <p><b class="n">40 CHINA</b> — Huawei's OSTA sub-brand debuts the O1 Pro phone.</p>
+          <p><b class="n">41 HONG KONG</b> — Rakshitha faces Chochuwong in the Open quarter-finals (due).</p>
+          <p><b class="n">42 UNITED STATES</b> — Nine NBA Cup games tonight; Kings at Lakers closes (due).</p>
+          <p><b class="n">43 OTTAWA</b> — Canada's September retail sales are published (due 08:30 ET; consensus +0.7%).</p>
+          <p><b class="n">44 GENEVA</b> — The arms-convention review conference concludes (due).</p>
+          <p><b class="n">45 SOUTH AUSTRALIA</b> — 6,000+ properties still dark as storm repairs drag on.</p>
+          <p><b class="n">46 CALIFORNIA</b> — Heavenly and Northstar open for the ski season (due).</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="datecheck">
+    <div class="dh">DATE CHECK</div>
+    <p>First reported <b>Thursday 19 Nov</b>, so NOT Friday news — and not on this page as news: Anthropic's record first trading day (+17% to $97.17) and Wall Street's sixth straight fall (Dow −1,101 to 49,097) · the Trump–Xi–Putin peace declaration at Shenzhen · the ICJ's Rohingya genocide ruling · GTA VI's midnight launch · the Houthi strike on Riyadh's PIF Tower · Tonga's drought emergency · the Senate's 51–48 Iran war-powers vote · Pete Rose's pardon · South Australia's storm itself (Friday is the blackout's second day) · Iowa's arsenal detonation, postponed to Monday. Pages that date them Friday are selling yesterday's paper.</p>
+  </div>
+
+  <div class="footer">Every story here happened, or was first reported, on Friday 20 November 2026; items marked "due" are Friday's scheduled events. Disputed claims are attributed, not stated as fact. Sources: Reuters, AP, AFP, BBC, PTI, ANSA, CNN, The Hindu, ICC, Le Monde, Sensor Tower, UNICEF, Xinhua. Original drawings.</div>
+</div>
+</body>
+</html>
